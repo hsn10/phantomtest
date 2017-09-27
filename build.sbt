@@ -18,4 +18,6 @@ libraryDependencies ++= Seq(
 
 libraryDependencies += "org.scalatest" %% "scalatest" % scalatestVersion % "test"
 
+libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.25" % "test"
+
 PhantomSbtPlugin.projectSettings
