@@ -1,3 +1,5 @@
+package db
+
 import org.scalatest.concurrent.ScalaFutures._
 import org.scalatest.Matchers._
 

@@ -1,6 +1,6 @@
-import com.outworkers.phantom.dsl._
+package db
 
-import db.RecipesDatabase
+import com.outworkers.phantom.dsl._
 import org.scalatest._
 import scala.concurrent.duration._
 
