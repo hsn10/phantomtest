@@ -13,6 +13,11 @@ abstract class PhantomSuite extends WordSpec with DatabaseProvider[RecipesDataba
    def beforeAll(): Unit = {
       super.beforeAll()
       database.create(1.minute)
-      println("** Database create called ***")
   }
+
+   override
+   def afterAll() = {
+      super.afterAll()
+      database.drop(1.minute)
+   }
 }
