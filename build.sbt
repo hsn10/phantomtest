@@ -17,3 +17,5 @@ libraryDependencies ++= Seq(
 )
 
 libraryDependencies += "org.scalatest" %% "scalatest" % scalatestVersion % "test"
+
+PhantomSbtPlugin.projectSettings
