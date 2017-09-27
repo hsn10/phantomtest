@@ -15,4 +15,5 @@ import scala.concurrent.{Future => ScalaFuture}
 class RecipesDatabase(override val connector: CassandraConnection) extends Database[RecipesDatabase](connector) {
 
   object Recipes extends RecipesStore with Connector
+  object Tokens  extends TokensStore with Connector
 }
