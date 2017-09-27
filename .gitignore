@@ -1,1 +1,5 @@
 /bin/
+/target/
+/project/target/
+.toDelete
+/project/project/target/
