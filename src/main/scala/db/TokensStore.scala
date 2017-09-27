@@ -21,6 +21,6 @@ abstract class TokensStore extends TokensTable {
       select
          .where( _.counter gte counter)
          .allowFiltering()
-      .collect()
+      .fetch()
    }   
 }
