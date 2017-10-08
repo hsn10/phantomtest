@@ -2,6 +2,7 @@ package db
 
 import scala.concurrent.{Future => ScalaFuture}
 import com.outworkers.phantom.dsl._
+import model.Recipe
 
 
 abstract class RecipesStore extends RecipeTable {

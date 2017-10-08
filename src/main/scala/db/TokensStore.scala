@@ -3,6 +3,7 @@ package db
 import com.outworkers.phantom.dsl._
 
 import java.util.UUID
+import model.Token
 
 abstract class TokensStore extends TokensTable {
    def save(t: Token) = {

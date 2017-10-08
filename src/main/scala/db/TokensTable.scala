@@ -1,6 +1,7 @@
 package db
 
 import com.outworkers.phantom.dsl._
+import model.Token
 
 abstract class TokensTable extends Table[TokensStore, Token] {
    object email extends StringColumn

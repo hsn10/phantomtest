@@ -1,7 +1,7 @@
 /**
  * In this example we will create a simple table storing recipes.
  */
-package db
+package model
 
 import java.time._
 

@@ -1,6 +1,7 @@
 package db
 
 import com.outworkers.phantom.dsl._
+import model.Recipe
 
 abstract class RecipeTable extends Table[RecipesStore, Recipe] {
 
