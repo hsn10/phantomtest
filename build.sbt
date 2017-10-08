@@ -1,8 +1,10 @@
 scalaVersion := "2.11.11"
 
 val CQLDriverVersion = "3.3.0"
-val phantomVersion = "2.14.5"
+val phantomVersion = "2.15.3"
 val scalatestVersion = "3.0.4"
+
+resolvers += Resolver.bintrayRepo("outworkers", "oss-releases")
 
 // Cassandra driver
 libraryDependencies ++= Seq(
