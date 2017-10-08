@@ -17,10 +17,12 @@ abstract class TokensStore extends TokensTable {
          .where( _.token eqs id)
       .one()
    }
+   /*
    def expired(counter : Int) = {
       select
          .where( _.counter gte counter)
          .allowFiltering()
       .fetch()
    }   
+   */
 }
