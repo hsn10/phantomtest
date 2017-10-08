@@ -2,6 +2,8 @@ package db
 
 import com.outworkers.phantom.dsl._
 import scala.concurrent.{Future => ScalaFuture}
+import dao.RecipesStore
+import dao.TokensStore
 
 // In this section, we will show how you can create a real-world Cassandra service with com.outworkers.phantom.
 // First you have to think of what queries you need to perform. The usual.

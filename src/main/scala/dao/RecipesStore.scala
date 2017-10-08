@@ -1,8 +1,9 @@
-package db
+package dao
 
 import scala.concurrent.{Future => ScalaFuture}
 import com.outworkers.phantom.dsl._
 import model.Recipe
+import db.RecipeTable
 
 
 abstract class RecipesStore extends RecipeTable {
