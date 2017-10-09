@@ -14,7 +14,7 @@ import dao.TokensStore
 // We usually overlay a service on top of the mapping tables.
 // To keep all the complexity away from other parts of the application.
 
-class RecipesDatabase(override val connector: CassandraConnection) extends Database[RecipesDatabase](connector) {
+class Database(override val connector: CassandraConnection) extends com.outworkers.phantom.dsl.Database[Database](connector) {
 
   object Recipes extends RecipesStore with Connector
   object Tokens  extends TokensStore with Connector
