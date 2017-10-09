@@ -1,4 +1,4 @@
-package silhouette.db
+package db
 
 import com.outworkers.phantom.builder.primitives._
 import model.PasswordInfo
