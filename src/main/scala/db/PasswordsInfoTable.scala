@@ -11,6 +11,7 @@ import dao.PasswordsInfoStore
 abstract class PasswordsInfoTable extends Table [PasswordsInfoStore, LinkedPasswordInfo] {
    implicit protected val c1 = PasswordInfoPrimitive.conversion
    implicit protected val c2 = LoginInfoPrimitive.conversion
+   override val tableName = "passwords"
    object password extends Col[PasswordInfo] {
       override val name = "p"
    }
