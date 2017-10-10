@@ -17,8 +17,5 @@ import dao._
 
 class Database(override val connector: CassandraConnection) extends com.outworkers.phantom.dsl.Database[Database](connector) {
 
-  object Recipes extends RecipesStore with Connector
-  object Tokens  extends TokensStore with Connector
   object Passwords extends PasswordsInfoStore with Connector
-  object Users extends UsersStore with Connector 
 }
