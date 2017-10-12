@@ -15,5 +15,7 @@ abstract class PasswordsInfoTable extends Table [PasswordsInfoStore, LinkedPassw
    object password extends Col[PasswordInfo] {
       override val name = "p"
    }
-   object login extends Col[LoginInfo] with PartitionKey
+   object login extends Col[LoginInfo] with PartitionKey {
+      override val name = "l"
+   }
 }
