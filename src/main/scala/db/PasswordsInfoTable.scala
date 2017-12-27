@@ -8,14 +8,8 @@ import model.LoginInfo
 import model.LinkedPasswordInfo
 import dao.PasswordsInfoStore
 
-abstract class PasswordsInfoTable extends Table [PasswordsInfoStore, LinkedPasswordInfo] {
-   implicit protected val c1 = PasswordInfoPrimitive.conversion
-   implicit protected val c2 = LoginInfoPrimitive.conversion
+abstract class PasswordsInfoTable extends Table[PasswordsInfoStore, LinkedPasswordInfo] {
    override val tableName = "passwords"
-   object password extends Col[PasswordInfo] {
-      override val name = "p"
-   }
-   object login extends Col[LoginInfo] with PartitionKey {
-      override val name = "l"
-   }
+   object login extends Col[LoginInfo] with PartitionKey
+   object password extends Col[PasswordInfo]
 }
