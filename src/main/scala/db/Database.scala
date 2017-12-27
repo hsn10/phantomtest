@@ -1,7 +1,10 @@
 package db
 
 import com.outworkers.phantom.dsl._
+
 import scala.concurrent.{Future => ScalaFuture}
+
+import dao._
 
 // In this section, we will show how you can create a real-world Cassandra service with com.outworkers.phantom.
 // First you have to think of what queries you need to perform. The usual.
@@ -12,8 +15,7 @@ import scala.concurrent.{Future => ScalaFuture}
 // We usually overlay a service on top of the mapping tables.
 // To keep all the complexity away from other parts of the application.
 
-class RecipesDatabase(override val connector: CassandraConnection) extends Database[RecipesDatabase](connector) {
+class Database(override val connector: CassandraConnection) extends com.outworkers.phantom.dsl.Database[Database](connector) {
 
-  object Recipes extends RecipesStore with Connector
-  object Tokens  extends TokensStore with Connector
+  object Passwords extends PasswordsInfoStore with Connector
 }

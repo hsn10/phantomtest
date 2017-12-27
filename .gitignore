@@ -4,3 +4,4 @@
 .toDelete
 /project/project/target/
 /.cache-*
+.idea
