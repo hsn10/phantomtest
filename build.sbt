@@ -5,12 +5,9 @@ val scalatestVersion = "3.0.4"
 
 // Phantom dependencies
 libraryDependencies ++= Seq(
-  "com.outworkers"  %% "phantom-dsl"                   % phantomVersion,
-  "com.outworkers"  %% "phantom-jdk8"                  % phantomVersion
+  "com.outworkers"  %% "phantom-dsl" % phantomVersion,
+  "com.outworkers"  %% "phantom-jdk8" % phantomVersion,
+  "org.scalatest" %% "scalatest" % scalatestVersion % Test
 )
-
-libraryDependencies += "org.scalatest" %% "scalatest" % scalatestVersion % "test"
-
-libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.25" % "test"
 
 PhantomSbtPlugin.projectSettings

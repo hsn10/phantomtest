@@ -1,5 +1,9 @@
 package model
 
+import com.outworkers.phantom.builder.primitives.Primitive
+
+trait AuthInfo
+
 /**
  * The password details.
  *
@@ -13,4 +17,12 @@ case class PasswordInfo(
   salt: Option[String] = None
 ) extends AuthInfo
 
-trait AuthInfo
+object PasswordInfo{
+  implicit val conversion : Primitive[PasswordInfo] = {
+    Primitive.derive[PasswordInfo, (String, String, Option[String])](pi => (pi.hasher, pi.password, pi.salt)) { x =>
+      val (a, b, c) = x
+      PasswordInfo(a, b, c)
+    }
+  }
+}
+
