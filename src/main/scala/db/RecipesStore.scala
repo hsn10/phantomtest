@@ -5,9 +5,9 @@ import com.outworkers.phantom.dsl._
 
 
 abstract class RecipesStore extends RecipeTable {
-    type UUID = Int
+  type UUID = Int
 
-    def findRecipeById(id: UUID): ScalaFuture[Option[Recipe]] = {
+  def findRecipeById(id: UUID): ScalaFuture[Option[Recipe]] = {
     select.where(_.id eqs id).one()
   }
 

@@ -13,14 +13,12 @@ abstract class TokensStore extends TokensTable {
       .future()
    }
    def get(id : UUID) = {
-      select
-         .where( _.token eqs id)
-      .one()
+      select.where( _.token eqs id).one()
    }
    def expired(counter : Int) = {
       select
-         .where( _.counter gte counter)
-         .allowFiltering()
+      .where(_.counter gte counter)
+      .allowFiltering()
       .fetch()
    }   
 }

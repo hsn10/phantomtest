@@ -6,10 +6,11 @@ import com.outworkers.phantom.dsl._
 // under ideal conditions this compiles without using DatabaseHelper
 
 /** Base class for Phantom database with Play injected Keyspace factory */
-abstract class BasePlayDatabase[DB <: BasePlayDatabase[DB]](factory: KeyspaceDefFactory)(implicit helper: DatabaseHelper[DB])
-      extends Database[DB](factory.create())(helper)
+abstract class BasePlayDatabase[
+      DB <: BasePlayDatabase[DB]
+](factory: KeyspaceDefFactory)(implicit helper: DatabaseHelper[DB]) extends Database[DB](factory.create())(helper)
 
 trait KeyspaceDefFactory {
-      /** create key space definition */
-      def create() : KeySpaceDef
+  /** create key space definition */
+  def create() : KeySpaceDef
 }
