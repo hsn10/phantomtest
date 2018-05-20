@@ -1,4 +1,4 @@
-scalaVersion := "2.11.11"
+scalaVersion := "2.11.12"
 
 val CQLDriverVersion = "3.3.0"
 val phantomVersion = "2.15.3"
