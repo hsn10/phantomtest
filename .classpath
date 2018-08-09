@@ -1,160 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src/main/scala"/>
-	<classpathentry kind="src" path="src/test/scala"/>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-3.3.0.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/srcs/cassandra-driver-core-3.3.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\docs\cassandra-driver-core-3.3.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.47.Final.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.0.47.Final-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-handler\docs\netty-handler-4.0.47.Final-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.47.Final.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.0.47.Final-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-buffer\docs\netty-buffer-4.0.47.Final-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.47.Final.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.0.47.Final-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-common\docs\netty-common-4.0.47.Final-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.47.Final.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.0.47.Final-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-transport\docs\netty-transport-4.0.47.Final-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.47.Final.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.0.47.Final-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-codec\docs\netty-codec-4.0.47.Final-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.google.guava\guava\docs\guava-19.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.2.2.jar" sourcepath="C:/Users/hsn/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.2.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.dropwizard.metrics\metrics-core\docs\metrics-core-3.2.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-api\docs\slf4j-api-1.7.25-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-ffi/jars/jnr-ffi-2.0.7.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-ffi/srcs/jnr-ffi-2.0.7-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-ffi\docs\jnr-ffi-2.0.7-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.10.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.10-native.jar"/>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm\docs\asm-5.0.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.3.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-5.0.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-commons\docs\asm-commons-5.0.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.3.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-5.0.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-tree\docs\asm-tree-5.0.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-5.0.3.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-analysis/srcs/asm-analysis-5.0.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-analysis\docs\asm-analysis-5.0.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.3.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-5.0.3-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-util\docs\asm-util-5.0.3-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-x86asm/jars/jnr-x86asm-1.0.2.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-x86asm/srcs/jnr-x86asm-1.0.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-x86asm\docs\jnr-x86asm-1.0.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-posix/jars/jnr-posix-3.0.27.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-posix/srcs/jnr-posix-3.0.27-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-posix\docs\jnr-posix-3.0.27-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-constants/jars/jnr-constants-0.9.0.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.github.jnr/jnr-constants/srcs/jnr-constants-0.9.0-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-constants\docs\jnr-constants-0.9.0-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-connectors_2.11/jars/phantom-connectors_2.11-2.13.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-connectors_2.11/srcs/phantom-connectors_2.11-2.13.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-connectors_2.11\docs\phantom-connectors_2.11-2.13.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.slf4j/log4j-over-slf4j/jars/log4j-over-slf4j-1.7.25.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.slf4j/log4j-over-slf4j/srcs/log4j-over-slf4j-1.7.25-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.slf4j\log4j-over-slf4j\docs\log4j-over-slf4j-1.7.25-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-dsl_2.11/jars/phantom-dsl_2.11-2.13.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-dsl_2.11/srcs/phantom-dsl_2.11-2.13.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-dsl_2.11\docs\phantom-dsl_2.11-2.13.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.typelevel\macro-compat_2.11\docs\macro-compat_2.11-1.1.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.2.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.3.2-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.chuusai\shapeless_2.11\docs\shapeless_2.11-2.3.2-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar" sourcepath="C:/Users/hsn/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\joda-time\joda-time\docs\joda-time-2.9.9-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.joda\joda-convert\docs\joda-convert-1.8.1-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-jdk8_2.11/jars/phantom-jdk8_2.11-2.13.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/com.outworkers/phantom-jdk8_2.11/srcs/phantom-jdk8_2.11-2.13.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-jdk8_2.11\docs\phantom-jdk8_2.11-2.13.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scalatest\scalatest_2.11\docs\scalatest_2.11-3.0.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-3.0.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scalactic\scalactic_2.11\docs\scalactic_2.11-3.0.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.5-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\docs\scala-xml_2.11-1.0.5-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/hsn/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar" sourcepath="C:/Users/hsn/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\docs\scala-parser-combinators_2.11-1.0.4-javadoc.jar!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src" path="src\main\scala"/>
+  <classpathentry kind="src" path="src\test\scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\srcs\cassandra-driver-core-3.5.1-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\jars\cassandra-driver-core-3.5.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\docs\cassandra-driver-core-3.5.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.netty\netty-handler\srcs\netty-handler-4.0.56.Final-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.0.56.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-handler\docs\netty-handler-4.0.56.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.netty\netty-buffer\srcs\netty-buffer-4.0.56.Final-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.0.56.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-buffer\docs\netty-buffer-4.0.56.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.netty\netty-common\srcs\netty-common-4.0.56.Final-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.0.56.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-common\docs\netty-common-4.0.56.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.netty\netty-transport\srcs\netty-transport-4.0.56.Final-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.0.56.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-transport\docs\netty-transport-4.0.56.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.netty\netty-codec\srcs\netty-codec-4.0.56.Final-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.0.56.Final.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.netty\netty-codec\docs\netty-codec-4.0.56.Final-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.google.guava\guava\srcs\guava-19.0-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.google.guava\guava\docs\guava-19.0-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\io.dropwizard.metrics\metrics-core\srcs\metrics-core-3.2.2-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\io.dropwizard.metrics\metrics-core\bundles\metrics-core-3.2.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\io.dropwizard.metrics\metrics-core\docs\metrics-core-3.2.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.25-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.25.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-api\docs\slf4j-api-1.7.25-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-ffi\srcs\jnr-ffi-2.1.7-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-ffi\jars\jnr-ffi-2.1.7.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-ffi\docs\jnr-ffi-2.1.7-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jffi\jars\jffi-1.2.16.jar"/>
+  <classpathentry kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jffi\jars\jffi-1.2.16-native.jar"/>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm\srcs\asm-5.0.3-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm\jars\asm-5.0.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm\docs\asm-5.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-commons\srcs\asm-commons-5.0.3-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-commons\jars\asm-commons-5.0.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-commons\docs\asm-commons-5.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-tree\srcs\asm-tree-5.0.3-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-tree\jars\asm-tree-5.0.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-tree\docs\asm-tree-5.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-analysis\srcs\asm-analysis-5.0.3-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-analysis\jars\asm-analysis-5.0.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-analysis\docs\asm-analysis-5.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-util\srcs\asm-util-5.0.3-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-util\jars\asm-util-5.0.3.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.ow2.asm\asm-util\docs\asm-util-5.0.3-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-x86asm\srcs\jnr-x86asm-1.0.2-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-x86asm\jars\jnr-x86asm-1.0.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-x86asm\docs\jnr-x86asm-1.0.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-posix\srcs\jnr-posix-3.0.44-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-posix\jars\jnr-posix-3.0.44.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-posix\docs\jnr-posix-3.0.44-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-constants\srcs\jnr-constants-0.9.9-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-constants\jars\jnr-constants-0.9.9.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.github.jnr\jnr-constants\docs\jnr-constants-0.9.9-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-connectors_2.11\srcs\phantom-connectors_2.11-2.24.8-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-connectors_2.11\jars\phantom-connectors_2.11-2.24.8.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-connectors_2.11\docs\phantom-connectors_2.11-2.24.8-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.slf4j\log4j-over-slf4j\srcs\log4j-over-slf4j-1.7.25-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.slf4j\log4j-over-slf4j\jars\log4j-over-slf4j-1.7.25.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.slf4j\log4j-over-slf4j\docs\log4j-over-slf4j-1.7.25-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-dsl_2.11\srcs\phantom-dsl_2.11-2.24.8-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-dsl_2.11\jars\phantom-dsl_2.11-2.24.8.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-dsl_2.11\docs\phantom-dsl_2.11-2.24.8-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.typelevel\macro-compat_2.11\srcs\macro-compat_2.11-1.1.1-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.typelevel\macro-compat_2.11\jars\macro-compat_2.11-1.1.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.typelevel\macro-compat_2.11\docs\macro-compat_2.11-1.1.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.chuusai\shapeless_2.11\srcs\shapeless_2.11-2.3.2-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.chuusai\shapeless_2.11\bundles\shapeless_2.11-2.3.2.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.chuusai\shapeless_2.11\docs\shapeless_2.11-2.3.2-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.9-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\joda-time\joda-time\docs\joda-time-2.9.9-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.8.1-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.8.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.joda\joda-convert\docs\joda-convert-1.8.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-jdk8_2.11\srcs\phantom-jdk8_2.11-2.24.8-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-jdk8_2.11\jars\phantom-jdk8_2.11-2.24.8.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\com.outworkers\phantom-jdk8_2.11\docs\phantom-jdk8_2.11-2.24.8-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.scalatest\scalatest_2.11\srcs\scalatest_2.11-3.0.5-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-3.0.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scalatest\scalatest_2.11\docs\scalatest_2.11-3.0.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.scalactic\scalactic_2.11\srcs\scalactic_2.11-3.0.5-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.scalactic\scalactic_2.11\bundles\scalactic_2.11-3.0.5.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scalactic\scalactic_2.11\docs\scalactic_2.11-3.0.5-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.6-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.6.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\docs\scala-xml_2.11-1.0.6-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-simple\srcs\slf4j-simple-1.7.25-sources.jar" kind="lib" path="C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-simple\jars\slf4j-simple-1.7.25.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\hsn\.ivy2\cache\org.slf4j\slf4j-simple\docs\slf4j-simple-1.7.25-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
 </classpath>
