@@ -7,7 +7,6 @@ import model.LinkedPasswordInfo
 import model.LoginInfo
 
 import com.outworkers.phantom.dsl._
-import com.outworkers.phantom.macros.debug.Options.ShowTrees
 
 abstract class PasswordsInfoStore extends PasswordsInfoTable {
 
@@ -16,7 +15,10 @@ abstract class PasswordsInfoStore extends PasswordsInfoTable {
  }
 
  def save(p: LinkedPasswordInfo) : Future[ResultSet] = {
-   store(p).future()
+   insert
+     .value(_.login, p.loginInfo)
+     .value(_.password, p.passwordInfo)
+     .future()
  }
 
  def delete(l: LoginInfo): Future[ResultSet] = {

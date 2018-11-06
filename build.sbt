@@ -1,6 +1,6 @@
-scalaVersion := "2.11.11"
+scalaVersion := "2.11.12"
 
-val phantomVersion = "2.17.0"
+val phantomVersion = "2.25.1"
 val scalatestVersion = "3.0.4"
 
 // Phantom dependencies
@@ -10,4 +10,10 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % scalatestVersion % Test
 )
 
-PhantomSbtPlugin.projectSettings
+javaOptions in Test ++= Seq(
+  "-Xmx2G",
+  "-Djava.net.preferIPv4Stack=true",
+  "-Dio.netty.resourceLeakDetection"
+)
+
+fork in Test := true
