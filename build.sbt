@@ -1,7 +1,7 @@
 scalaVersion := "2.11.12"
 
 val CQLDriverVersion = "3.5.1"
-val phantomVersion = "2.24.8"
+val phantomVersion = "2.25.1"
 val scalatestVersion = "3.0.5"
 
 resolvers += Resolver.bintrayRepo("outworkers", "oss-releases")
