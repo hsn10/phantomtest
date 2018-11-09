@@ -5,7 +5,7 @@ import org.scalatest._
 import scala.concurrent.duration._
 
 
-abstract class PhantomSuite extends WordSpec with DatabaseProvider[RecipesDatabase] with BeforeAndAfterAll {
+abstract class PhantomSuite extends WordSpec with DatabaseProvider[TokensDatabase] with BeforeAndAfterAll {
    override
    def database = new RecipesDatabase(ContactPoint.embedded.keySpace("my_app_test"))
    
