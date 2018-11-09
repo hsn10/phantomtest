@@ -16,7 +16,7 @@ abstract class PhantomSuite extends WordSpec with DatabaseProvider[TokensDatabas
   }
 
    override
-   def afterAll() = {
+   def afterAll(): Unit = {
       super.afterAll()
       database.drop(1.minute)
    }
