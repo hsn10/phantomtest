@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 
 abstract class PhantomSuite extends WordSpec with DatabaseProvider[TokensDatabase] with BeforeAndAfterAll {
    override
-   def database = new RecipesDatabase(ContactPoint.embedded.keySpace("my_app_test"))
+   val database = new TokensDatabase(ContactPoint.embedded.keySpace("my_app_test"))
    
    override
    def beforeAll(): Unit = {
