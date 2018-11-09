@@ -1,6 +1,4 @@
-// And finally the plugin dependency itself
-
-addSbtPlugin("com.outworkers" %% "phantom-sbt" % "2.22.0")
+addSbtPlugin("com.outworkers" %% "phantom-sbt" % "2.24.11")
 
 logLevel := Level.Warn
 
