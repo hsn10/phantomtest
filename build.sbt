@@ -20,4 +20,12 @@ libraryDependencies ++= Seq(
   "org.slf4j"        % "slf4j-simple" % "1.7.25" % "test"
 )
 
+javaOptions in Test ++= Seq(
+  "-Xmx2G",
+  "-Djava.net.preferIPv4Stack=true",
+  "-Dio.netty.resourceLeakDetection"
+)
+
+fork in Test := true
+
 PhantomSbtPlugin.projectSettings
