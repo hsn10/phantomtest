@@ -16,9 +16,11 @@ abstract class TokensStore extends TokensTable {
       select.where( _.token eqs id).one()
    }
    def expired(counter : Int) = {
-      select
-         .where( _.counter gte counter)
-         .allowFiltering()
-      .fetch()
-   }   
+      /* PHANTOM BUG: With "allow filtering" cassandra allows to query
+       * non indexed column. Some restrictions depending on Cassandra 
+       * 3.X sub version are on querying part of partitioning
+       * multi column key.
+       */
+      select.where( _.counter gte counter).allowFiltering().fetch()
+   }
 }
