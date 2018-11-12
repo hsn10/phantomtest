@@ -1,6 +1,7 @@
 package db
 
 import com.outworkers.phantom.dsl._
+import scala.concurrent.Future
 
 import java.util.UUID
 
@@ -14,6 +15,9 @@ abstract class TokensStore extends TokensTable {
    }
    def get(id : UUID) = {
       select.where( _.token eqs id).one()
+   }
+   def delete(id : UUID) : Future[ResultSet] = {
+      super.delete.where( _.token eqs id).future()
    }
    def expired(counter : Int) = {
       /* PHANTOM NOT IMPLEMENTED FEATURE:
