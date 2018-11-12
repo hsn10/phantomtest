@@ -9,7 +9,7 @@ import java.util.UUID
 
 class TokensStoreSpec extends PhantomSuite {
     "TokensStore" should {
-        "store token" in {
+        "store token and get it" in {
            val t = Token("test@email.com", UUID.randomUUID(), 1)
            val chain =
            for { save <- database.Tokens.save(t)
