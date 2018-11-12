@@ -21,7 +21,7 @@ abstract class TokensStore extends TokensTable {
    }
    def expired(counter : Int) = {
       /* PHANTOM NOT IMPLEMENTED FEATURE:
-       * With "allow filtering" cassandra allows to query
+       * With "allow filtering" Cassandra allows to query
        * non indexed column. Restrictions are on querying part of multi column
        * partition key. You need Cassandra 3.10+ to be able to filter
        * on partition key columns.
